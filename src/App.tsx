@@ -5,7 +5,7 @@ import io from 'socket.io-client';
 import Home from './pages/Home/index';
 import Chat from './pages/chat/index';
 
-const socket = io('http://localhost:4000');
+const socket = io('https://chat-service-app.onrender.com');
 
 interface AppProps {}
 
